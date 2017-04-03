@@ -1,0 +1,8 @@
+{
+  "name": "courier",
+  "description": "courier",
+  "memory": 128,
+  "timeout": 5,
+  "role": "arn:aws:iam::863525454617:role/courier_lambda_function",
+  "environment": {}
+}
