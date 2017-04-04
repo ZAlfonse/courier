@@ -1,5 +1,4 @@
 import boto3
-import json
 
 
 def handle(event, context):
@@ -14,4 +13,4 @@ def handle(event, context):
 
     table.put_item(Item=item)
 
-    return json.dumps(item)
+    return item

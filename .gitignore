@@ -1,4 +1,4 @@
 bin/
-!bin/install-tf.sh
+!bin/install-apex.sh
 terraform.tfstate
 terraform.tfstate.backup
